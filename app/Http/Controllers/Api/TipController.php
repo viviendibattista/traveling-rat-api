@@ -17,6 +17,6 @@ class TipController extends Controller
 	public function show($id)
 	{
 		$tip = Tip::findOrFail($id);
-		return response()->json($post);
+		return response()->json($tip);
 	}
 }

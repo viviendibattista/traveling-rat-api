@@ -14,7 +14,7 @@ class TipController extends Controller
 	{
 		return response()->json([
 			'username' => 'Invité',
-			'user_role' => 'Visitor',
+			'user_role' => 1,
 			'config' => []
 		]);
 	}

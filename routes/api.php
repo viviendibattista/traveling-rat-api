@@ -20,3 +20,5 @@ use App\Http\Controllers;
 // });
 
 Route::get('posts', [Controllers\Api\TipController::class, 'index']);
+
+Route::post('init_app', [Controllers\Api\TipController::class, 'initApp']);
